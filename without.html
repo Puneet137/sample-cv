@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Curriculum Vitae </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+    <article>
+        <nav>
+            <a href="withCss.html"> updated Resume</a>
+        </nav>
+        <header>
+
+            <center>
+                <h1>Jaswinder Singh</h1>
+            </center>
+        </header>
+    </article>
+
+
+    <main align="center">
+
+        <section align="right">
+
+
+        </section>
+        <section style="border: 2px solid black;  background-color: #dddddd;  overflow: auto; ">
+            <img src="logo.png" alt="Jaswinder" width="100px" height="100px" style="float:right">
+            <address>
+                
+            29 Bear Run Road Brampton, ON L6X 2Y9<br>
+           Cell: (437)-247-9331<br>
+           
+            <a href="mailto:jaschahal93@gmail.com ">jaschahal93@gmail.com</a>
+             <br>
+                 <a href="https://ca.linkedin.com/">Linkdin</a>
+            </address>
+
+        </section>
+        <hr>
+        <section>
+
+
+            <h2><u>SUMMARY OF QUALIFICATIONS</u></h2>
+            <p>
+                Demonstrated ability to quickly gain knowledge and become helpful with numerous software development tools. Strong team player with a positive attitude, demonstrate keen attention to detail and excellent organizational multi-tasking abilities. Able to
+                do work individually and as a team member to meet deadlines. <br>Strong customer service and leadership skills. Extremely productive in high volume, high stress environment.<br> Good problem solving, decision making and
+                time management skills. Knowledge of different Computer languages JAVA, Kotlin, Swift, Flutter Proficient in developing & designing mobile applications for android, ios platforms Enthusiastic to work with new technologies as well as keep
+                updated myself
+
+            </p>
+
+        </section>
+
+        <article>
+            <h2><u>Schooling</u></h2>
+            <table style="width:100%">
+                <tr>
+                    <th>Organization Name </th>
+                    <th>Total Marks</th>
+                    <th> Marks Obtained</th>
+                    <th>Year</th>
+                    <th>C.G.P</th>
+                </tr>
+                <tr>
+                    <td> Khalsa School , Sirsa</td>
+                    <th>500</th>
+                    <td>330</td>
+                    <td>2008</td>
+                    <td>6.2</td>
+                </tr>
+                <tr>
+                    <td>S.D High School</td>
+                    <th>500</th>
+                    <td>374</td>
+                    <td>2011</td>
+                    <td>6.9</td>
+                </tr>
+            </table>
+            <section>
+                <h2><u>PROFESSIONAL EXPERIENCE</u></h2>
+                <h3>Software Developer
+                </h3>
+                <p>AppsMaven, Mohali (Punjab), INDIA </p>
+                <p align="">June 2016 to July 2019 </p>
+                <ul align="center">
+
+                    <li>Conceptualize, develop, and test native Android applications, including UI, core functionality, and third-party SDKS</li>
+                    <li>Develop solid relationship with clients by providing them excellent mobile applications</li>
+                    <li>Management of team for better productivity with great teamwork</li>
+                    <li>Communication with clients to provide them better service</li>
+                    <li>Worked with updated technologies to develop the efficient applications</li>
+                    <li>Ability create custom /user friendly applications according to the requirements</li>
+                    <li>Created successful JMess! communication Android app that is currently in production</li>
+
+                </ul>
+
+
+
+            </section>
+            <section>
+
+                <h3>Android Developer </h3>
+                <p>TechWinLabs, Mohali (Punjab), INDIA </p>
+                <p align=""> Oct 2015 to June 2016
+                </p>
+                <ul>
+                    <li>Built Android apps with back-end API integration to improve the customer experience and cut down on development time</li>
+                    <li>Successfully writing application logic using Eclipse, Android Studio and Android SDK.</li>
+                    <li>Integrated Google play services, Twitter, LinkedIn, Instragram and Google Maps API V2</li>
+                    <li>Successfully deployed the app on the Android Marketplace and supported the app for different releases of Android OS.</li>
+
+                </ul>
+
+
+
+            </section>
+
+            <section>
+                <h2><u>VOLUNTEER ACTIVITIES </u></h2>
+
+                <p>Blood Donation during campus Blood Donation Events </p>
+            </section>
+            <section>
+                <h2><u>EDUCATION</u></h2>
+
+                <p><strong>Post-Graduate Diploma</strong> in <strong>Mobile Applications Design & Development</strong> Present Lambton College at Cestar College of Business, Health and Technology, Toronto, ON
+
+
+                    <br> <br><strong>Bachelor of technology Computer Science & Engineering </strong>2011 May 2015 Guru Nanak Dev Engineering College, Ludhiana, Punjab, India
+                </p>
+            </section>
+            <section>
+                <h2><u>CERTIFICATION </u></h2>
+
+                <p>Standard First Aid and CPR Level C</p>
+            </section>
+
+            <div style="text-align:left">
+
+                <h2><u>Companies </u></h2>
+                <p>Click on the images below:</p>
+            </div>
+            <section style="border: 2px solid black;  background-color: #dddddd;  overflow: auto; ">
+
+                <!-- The four columns -->
+                <div class="row">
+                    <div class="column">
+                        <img src="1.jpg" alt="Nature" style="width:30%" onclick="myFunction(this);">
+                    </div>
+                    <div class="column">
+                        <img src="2.jpg" alt="Snow" style="width:30%" onclick="myFunction(this);">
+                    </div>
+                    <div class="column">
+                        <img src="3.png" alt="Mountains" style="width:30%" onclick="myFunction(this);">
+                    </div>
+                    <div class="column">
+                        <img src="4.jpeg" alt="Lights" style="width:30%" onclick="myFunction(this);">
+                    </div>
+                </div>
+                <center>
+                    <div class="container">
+                        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+                        <img id="expandedImg" style="width:20%">
+                        <div id="imgtext"></div>
+                    </div>
+                </center>
+            </section>
+            <script>
+                function myFunction(imgs) {
+                    var expandImg = document.getElementById("expandedImg");
+                    var imgText = document.getElementById("imgtext");
+                    expandImg.src = imgs.src;
+                    imgText.innerHTML = imgs.alt;
+                    expandImg.parentElement.style.display = "block";
+                }
+            </script>
+            </section>
+
+
+
+        </article>
+
+        <section align="center">
+            <fieldset>
+                <legend>
+                    <h2><u>Feel Free To Contact </u></h2>
+                </legend>
+                <form action="#">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name"><br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email"><br><br>
+                    <label for="contact">Contact:</label>
+
+                    <input type="number" id="contact" name="contact"><br><br>
+                    <label for="reason">Select Reason:</label>
+                    <select id="reason">
+                    <option value="fulltime">Full Time  Work</option>
+                    <option value="parttime">Part Time Work</option>
+                    <option value="interview">Interview</option>
+                    <option value="guidance">Guidance</option>
+                  </select><br><br>
+                    <label for="description">Description:</label>
+                    <input type="text" id="description" name="description"><br><br>
+                    <input id="myBtn" onclick="javascript:alert('Thanks.. Query Submitted!')" type="submit" value="Submit">
+                </form>
+            </fieldset>
+        </section>
+
+
+
+    </main>
+    <footer>
+        <p align="right">Self Attested </p>
+    </footer>
+    <script>
+        var input = document.getElementById("submit");
+        input.addEventListener("keyup", function(event) {
+            if (event.keyCode === 13) {
+                event.preventDefault();
+                document.getElementById("myBtn").click();
+            }
+        });
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,198 @@
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.name {
+    font-size: 32px;
+    text-shadow: 2px 2px #ceff00eb;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+    /* background-color: lavender; */
+}
+
+#grad {
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(206, 19, 38));
+}
+
+.fixedMargin {
+    margin: 40px;
+}
+
+.div {
+    width: 100%;
+    height: 50px;
+}
+
+.experience {
+    background-color: antiquewhite;
+    padding: 25px;
+}
+
+.experience h2 {}
+
+.summary {
+    background-color: #E5F2FD;
+    padding: 40px;
+    width: 800px;
+    margin: auto;
+}
+
+
+/* The grid: Four equal columns that floats next to each other */
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+
+/* Style the images inside the grid */
+
+.column img {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.column img:hover {
+    opacity: 1;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* The expanding image container */
+
+.container {
+    position: relative;
+    display: none;
+}
+
+
+/* Expanding image text */
+
+#imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+
+/* Closable button inside the expanded image */
+
+.closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+div.gallery {
+    margin: 40px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+    box-shadow: 10px 10px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+select {
+    width: 50%;
+    height: 30PX;
+    margin-bottom: 10px;
+}
+
+
+/* input[type="email"] {
+    width: 50%;
+    height: 30PX;
+    margin-bottom: 10px;
+} */
+
+input[type="number"],
+input[type="email"],
+input[type="text"] {
+    width: 50%;
+    height: 30PX;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    width: 20%;
+    margin-left: 35px;
+    background-color: orange;
+    font-size: 20px;
+}
+
+.ball {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    0% {
+        background-color: red;
+        left: 0px;
+        top: 0px;
+    }
+    75% {
+        background-color: green;
+        left: 0px;
+        top: 100px;
+    }
+    100% {
+        background-color: red;
+        left: 0px;
+        top: 0px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: grey;
+    }
+}
