@@ -113,12 +113,12 @@ Banner
 .banner{
 	background: url('../img/bg-banner.jpg') no-repeat center top;
     background-size: cover;
-	min-height: 380px;
+	min-height: 580px;
     position: relative;
 }
 .bg-color{
 	background-color: RGBA(12, 11, 11, 0.82);
-	min-height: 380px;
+	min-height: 580px;
 }
 .text-dec{
 	font-size: 24px;
